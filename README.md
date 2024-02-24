@@ -3,8 +3,7 @@
 ## Introduction to DeepFake
 DeepFake involves the use of artificial intelligence (AI) and deep learning techniques to generate convincing fake content, spanning images, videos, audio, and messages. The technology has the capability to create content that appears authentically real.
 
-![DeepFake Example]
-(https://www.mdpi.com/sensors/sensors-21-07367/article_deploy/html/images/sensors-21-07367-g001.png)
+![DeepFake Example](https://www.mdpi.com/sensors/sensors-21-07367/article_deploy/html/images/sensors-21-07367-g001.png)
 
 ## Team Members
 - Suhaani Aggarwal
@@ -57,8 +56,7 @@ The overall accuracy achieved by our audio detection system globally is an outst
 
 ## Example 
 -Frontend : A audio file called real.mp3 is uploaded to check if it is DeepFake. Correct output.
-![Example]
-(sexample.png)
+![Example](example.png)
 
 
 ## In Progress work
