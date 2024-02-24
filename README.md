@@ -79,7 +79,7 @@ The audio dataset used for training and testing was sourced from the "Kaggle Dee
 4. **Upload the required file to test:**
 
 ## Train the .ipynb models
-1. **Upload the ipynb fike to Google Colab**
+1. **Upload the ipynb file to Google Colab**
 2. **Select Runtime as GPU**
 3. **Run the Cells**
 4. **If asked for kaggle login, login using username and API Key**
