@@ -16,11 +16,11 @@ DeepFake involves the use of artificial intelligence (AI) and deep learning tech
 - Audio
 - Message
 
-## Our Project
+## Project
 
-##Image Detection
+## Image Detection
 We embarked on our project with a focus on DeepFake detection in images. 
-In the "Kaggle DeepFake Challenge" dataset, we achieved an accuracy of 54%, with the highest accuracy in the challenge recorded at 65%.
+In the "Kaggle DeepFake Challenge" dataset, our model achieved an accuracy of 54%, with the highest accuracy in the challenge for this datset recorded at 65%.
 
 ### Technique Used
 - Detection of faces in images using OpenCV Haar Cascade Classifier
@@ -46,13 +46,10 @@ We leveraged this new data to train a Convolutional Neural Network (CNN) model, 
 3. **Dense Neural Network Model**
    - Used the 26 key features obtained from audio signals.
    - Trained a dense neural network model.
-   - Achieved an impressive accuracy of 97.6%.
+   - Achieved an impressive accuracy of 97.6% (The overall accuracy achieved globally is 98.1%)
 
 ### Dataset Source
-The audio dataset used for training and testing was sourced from the Kaggle DeepFake Challenge.
-
-### Worldwide Accuracy
-The overall accuracy achieved by our audio detection system globally is an outstanding 98.1%.
+The audio dataset used for training and testing was sourced from the "Kaggle DeepFake Challenge".
 
 ## Example 
 -Frontend : A audio file called real.mp3 is uploaded to check if it is DeepFake. Correct output.
