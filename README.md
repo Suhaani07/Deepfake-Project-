@@ -69,14 +69,14 @@ The audio dataset used for training and testing was sourced from the "Kaggle Dee
 ## How to Run 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/yourusername/Error404-DeepFake-Detection.git](https://github.com/Suhaani07/Error404-Deepfake-Project)
+   git clone https://github.com/Suhaani07/Error404-Deepfake-Project
 2. **Navigate to the Repository:**
    ```bash
    cd Error404-DeepFake-Detection
 3. **Run the Streamlit Page:**
    ```bash
    streamlit run frontend.py
-4. **Upload the required fuike to test:**
+4. **Upload the required file to test:**
 
 ## Train the .ipynb models
 1. **Upload the ipynb fike to Google Colab**
