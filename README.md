@@ -14,7 +14,6 @@ DeepFake involves the use of artificial intelligence (AI) and deep learning tech
 - Image
 - Video
 - Audio
-- Message
 
 ## Project
 
@@ -23,12 +22,19 @@ We embarked on our project with a focus on DeepFake detection in images.
 In the "Kaggle DeepFake Challenge" dataset, our model achieved an accuracy of 54%, with the highest accuracy in the challenge for this datset recorded at 65%.
 
 ### Technique Used
+1. **CNN Based**
 - Detection of faces in images using OpenCV Haar Cascade Classifier
 - Cropping only the face part
 - 90% faces detected in the Real image dataset
 - 50% faces detected in the Fake image dataset
 
 We leveraged this new data to train a Convolutional Neural Network (CNN) model, fine-tuning parameters to enhance accuracy from 50% to 54%.
+
+1. **Transfer Learning**
+- Detection of faces in images using face_recognition
+- Training the CNN Model
+- Using this model to then do tranfer learning
+- Feeze upper layers to prevent overfitting
 
 ## Audio Detection
 
@@ -46,7 +52,22 @@ We leveraged this new data to train a Convolutional Neural Network (CNN) model, 
 3. **Dense Neural Network Model**
    - Used the 26 key features obtained from audio signals.
    - Trained a dense neural network model.
-   - Achieved an impressive accuracy of 97.6% (The overall accuracy achieved globally is 98.1%)
+   - Achieved an impressive accuracy of 92.6% (The overall accuracy achieved globally is 96.1%)
+
+### Dataset Source
+The audio dataset used for training and testing was sourced from the "Kaggle DeepFake Challenge".
+
+## Video Detection
+
+### Techniques Used
+
+   - Divided the whole video into frames
+   - Used the fake image detection model to on these images
+   - Compared the similarity between adjacent frames
+   - Trained a CNN Model
+   - Detected based on Similarity graph
+   - Achieved a accuracy of 62% 
+
 
 ### Dataset Source
 The audio dataset used for training and testing was sourced from the "Kaggle DeepFake Challenge".
@@ -54,12 +75,10 @@ The audio dataset used for training and testing was sourced from the "Kaggle Dee
 ## Example 
 -Frontend : A audio file called real.mp3 is uploaded to check if it is DeepFake. Correct output.
 ![Example](example.png)
+-Similar can be followed for video and image
 
-
-## In Progress work
-- Using Transfer Learning to increase accuracy of Image Detection
-- Detect DeepFake of Videos using Frame wise similarity technique
-
+## Demonstration Video Link
+- ![Link](Link)
 
 ## Project Structure
 - .ipynb files used for model training
